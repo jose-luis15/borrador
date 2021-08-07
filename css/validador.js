@@ -7,8 +7,7 @@ function validar_ingreso() {
     contrasena = document.getElementById("password").value;
     if (usuarios.includes(usuario) && contrasena === "estrellitas123") {
         //window.open("https://www.argar.cat");
-        //window.open("https://www.argar.cat","_self");
-        window.location.replace("https://www.argar.cat");
+        window.open("https://www.argar.cat","_self");
     } else {
         alertify.error('Usuario o contraseña incorrectos');
     }
